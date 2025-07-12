@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BeautyShop- Inicio</title>
+  <meta name="description" content="BeautyShop: Tu tienda online de cosmeticos." />
+  <meta name="keywords" content="cosmeticos,tienda,mujer,accesorios" />
+  <meta name="author" content="BeautyShop" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/common.js"></script>
+</head>
+<body id="index">
+  <header class="site-header">
+    <nav class="nav-bar">
+      <a href="index.html" class="logo">BeautyShop</a>
+      <div class="nav-links">
+        <a href="productos.html">Productos</a>
+        <a href="carrito.html">Carrito (<span id="cart-count">0</span>)</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="hero-overlay">
+        <h1>Bienvenido a <span class="highlight">BeautyShop<span></h1>
+        <p>Los mejores comesticos al alcance de un clic.</p>
+        <a href="productos.html" class="btn-primary">Ver Productos</a>
+      </div>
+    </section>
+
+    <section id="features" class="features-section">
+      <div class="feature-card">
+        <i class="fas fa-shipping-fast fa-2x"></i>
+        <h3>Envío Rápido</h3>
+        <p>Despachos a todo el país en 24–48 horas.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-lock fa-2x"></i>
+        <h3>Pago Seguro</h3>
+        <p>Transacciones 100% encriptadas.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-headset fa-2x"></i>
+        <h3>Soporte 24/7</h3>
+        <p>Estamos disponibles para ayudarte.</p>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact-section">
+      <h2>Contáctanos</h2>
+      <form id="contact-form" action="https://formspree.io/f/mgvygqon" method="POST" novalidate>
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tu@correo.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="4" placeholder="Escribe tu consulta..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Enviar Mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 BeautyShop Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+</html>

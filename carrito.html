@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BeautyShop- Carrito</title>
+  <meta name="description" content="Tu carrito de compras en BeautyShop." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/common.js"></script>
+  <script defer src="js/carrito.js"></script>
+</head>
+<body id="carrito-page">
+  <header class="site-header">
+    <nav class="nav-bar">
+      <a href="index.html" class="logo">BeautyShop</a>
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="cart-items">
+    </section>
+    <section id="cart-actions">
+      <p>Total: $<span id="cart-total">0.00</span></p>
+      <button id="empty-cart" class="btn-primary">Vaciar carrito</button>
+      <button id="checkout" class="btn-primary">Finalizar compra</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 BeautyShop. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+</html>
