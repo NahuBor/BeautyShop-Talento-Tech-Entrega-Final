@@ -121,4 +121,10 @@ No se emplean frameworks externos; todo el proyecto está creado con herramienta
 * Actualización del total y persistencia.
 
 ---
+## 🔗 Enlace en GitHub Pages
 
+La aplicación está alojada en GitHub Pages y puedes accederla mediante el siguiente enlace:
+
+[BeautyShop en GitHub Pages](https://nahubor.github.io/BeautyShop-Talento-Tech-Entrega-Final/)
+
+---
